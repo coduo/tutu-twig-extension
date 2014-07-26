@@ -1,0 +1,13 @@
+default:
+    autoload:
+        - %paths.base%/vendor/coduo/tutu/features/bootstrap
+    extensions:
+        Behat\MinkExtension:
+            goutte: ~
+    suites:
+        tutu:
+            paths:    [ %paths.base%/features ]
+            contexts:
+                - TutuContext:
+                    webPath: %paths.base%/vendor/coduo/tutu/web
+                - HttpClientContext
