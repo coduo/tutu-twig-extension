@@ -5,15 +5,7 @@ This extensions adds new features to Twig
 To use extension simply add it to TuTu composer dependencies:
 
 ```
-    "require": {
-        "coduo/tutu-twig-extension": "1.0.*@dev"
-    }
-```
-
-Update composer
-
-```
-$ composer update
+$ composer require coduo/tutu-twig-extension
 ```
 
 Enable extension in TuTu configuration
